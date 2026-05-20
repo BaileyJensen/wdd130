@@ -25,7 +25,7 @@ h1 {
 }
 
 main img {
-    width: 150px;
+    width: 180px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -73,5 +73,6 @@ footer {
     border: 1px solid rgba(0, 0, .1);
     padding: 1rem;
     background-color: #eee;
+    width: 75%;
     color: black;
 }
