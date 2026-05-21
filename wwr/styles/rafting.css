@@ -17,7 +17,7 @@ body {
     color: var(--accent-color);
 }
 
-footer {
+footer a {
 
     text-align: center;
     text-decoration: none;
@@ -74,6 +74,10 @@ section {
     text-decoration: none;
     display: flex;
 
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
 
 .socialmedia img {
