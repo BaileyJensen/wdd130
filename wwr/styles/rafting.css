@@ -24,7 +24,7 @@ footer {
 
 }
 
-nav {
+nav a {
     text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ section {
 
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: 50px;
     width: 100%;
