@@ -6,7 +6,6 @@
 
 :root {
     --primary-color: darkblue;
-    --secondary-color: darkgreen;
     --accent1-color: #264653;
     --accent-color: #055a05;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -18,14 +17,15 @@ body {
     color: var(--accent-color);
 }
 
-header {
-    margin: left;
-}
-
 footer {
 
     text-align: center;
+    text-decoration: none;
 
+}
+
+nav {
+    text-decoration: none;
 }
 
 main {
