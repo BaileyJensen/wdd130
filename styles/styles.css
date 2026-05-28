@@ -11,17 +11,25 @@
 
 nav {
     background-color: var(--color);
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
 nav a {
     color: black;
     display: block;
-    padding: 20px;
+    padding: 1rem;
+    text-decoration: none;
 }
 
 h1 {
     color: var(--color);
+    border-bottom: 2px solid lightblue;
+
 }
 
 main img {
@@ -38,14 +46,22 @@ p {
     padding: 0px;
 }
 
+.grid {
+    display: grid;
+    align-items: center;
+}
+
 main {
-    max-width: 840px;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 aside {
     position: relative;
     bottom: 10px;
     width: 20rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
     text-align: var(--text-align);
 }
 
@@ -61,10 +77,13 @@ aside img {
     height: auto;
 }
 
+header,
 footer {
-    margin-top: 10px;
+    margin-top: 0 auto;
+    max-width: 840px;
     border-top: 1px solid black;
     text-align: var(--text-align);
+
 }
 
 /* Class Selector*/
