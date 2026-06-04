@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    color: blueviolet;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    border: 2px pink;
+    background-color: pink;
+    text-align: center;
+}
+
+form {
+    width: 600px;
+    padding: 3px;
+    margin: 0 auto;
+    border: 1px solid purple;
+    border-radius: 10px;
+    background-color: lightgoldenrodyellow;
+    display: grid;
+
+}
+
+fieldset {
+    display: grid;
+    gap: 10px;
+    border: 1px solid purple;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+legend {
+    color: purple;
+    padding: 0.5rem;
+    font-size: 1.3em;
+    margin: 1px;
+
+}
+
+label {
+    text-align: left;
+    padding-left: 0.5px;
+}
+
+input,
+select,
+textarea {
+    padding: 8px;
+    font-size: large;
+    text-align: center;
+
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+}
+
+button {
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+footer {
+    margin: 1rem;
+    border: 1px solid purple;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+
+}
