@@ -17,7 +17,7 @@ body {
     color: var(--accent-color);
 }
 
-footer  {
+footer {
     display: flex;
     text-align: center;
     text-decoration: none;
@@ -26,7 +26,7 @@ footer  {
 
 }
 
-footer p{
+footer p {
     color: black;
 }
 
@@ -104,8 +104,6 @@ section {
     text-align: center;
     margin: 16px;
     padding: 8px;
-    
-    
 
 }
 
@@ -124,7 +122,6 @@ section {
 .socialmedia {
     text-decoration: none;
     display: flex;
-    
 
 }
 
@@ -138,7 +135,6 @@ section {
     width: 70px;
     height: auto;
     padding: 5px;
-   
 
 }
 
@@ -158,13 +154,71 @@ section {
     float: right;
     width: 200px;
 }
+
 .adventure {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
 
-.adventure img{
+.adventure img {
     width: 250px;
     height: auto;
     align-content: center;
+}
+
+.info {
+    border: 5px;
+    text-align: center;
+}
+
+.map {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+form {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 15px;
+    max-width: 600px;
+}
+
+.employee {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.employee img {
+    width: 200px;
+    height: auto;
+    align-content: center;
+
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+.button-row {
+    grid-column: 1/3;
+    text-align: center;
+
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 100px;
 }
