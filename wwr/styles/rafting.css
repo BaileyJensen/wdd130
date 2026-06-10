@@ -229,12 +229,18 @@ textarea {
     color: black;
     border-radius: 10%;
     opacity: 0.8;
-    bottom: -75px;
+    bottom: -200px;
     padding: 30px;
     margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+}
+
+.small-button {
+    width: 300px;
+    padding: 5px;
 
 }
 
