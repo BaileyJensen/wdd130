@@ -5,7 +5,6 @@
 }
 
 :root {
-    --primary-color: powderblue;
     --accent1-color: plum;
     --accent-color: lightpink;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -233,10 +232,6 @@ textarea {
     bottom: -75px;
     padding: 30px;
     margin: 20px;
-
-}
-
-.homepageForm {
     display: flex;
     flex-direction: column;
     align-items: center;
