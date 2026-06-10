@@ -5,9 +5,9 @@
 }
 
 :root {
-    --primary-color: darkblue;
-    --accent1-color: #264653;
-    --accent-color: #055a05;
+    --primary-color: powderblue;
+    --accent1-color: plum;
+    --accent-color: lightpink;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -21,7 +21,7 @@ footer {
     display: flex;
     text-align: center;
     text-decoration: none;
-    background-color: #055a05;
+    background-color: var(--accent-color);
     justify-content: center;
 
 }
@@ -53,7 +53,7 @@ header {
 
 .navigation a {
     display: block;
-    color: navy;
+    color: black;
     padding: 20px;
     text-decoration: none;
     font-size: 1.2rem;
@@ -73,7 +73,7 @@ h2 {
     grid-column: 1/2;
     padding: 10px;
     font-family: var(--heading-font);
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
     color: white;
     align-items: center;
 }
@@ -221,4 +221,120 @@ button {
 textarea {
     width: 100%;
     min-height: 100px;
+}
+
+.homepageForm {
+    position: absolute;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    border-radius: 10%;
+    opacity: 0.8;
+    bottom: -75px;
+    padding: 30px;
+    margin: 20px;
+
+}
+
+.homepageForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.gototrip {
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    border-radius: 10%;
+    opacity: 0.8;
+    bottom: 420px;
+    left: 33%;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+
+}
+
+.trips img {
+    width: 500px;
+    height: auto;
+}
+
+.familyfloat {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.canyonriverimg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.canyonriverp {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: var(--accent1-color);
+    font-size: 14px;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.familyfloatp {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: var(--accent1-color);
+    font-size: 14px;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.rootbeerfallsimg {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.rootbeerfallsp {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: var(--accent1-color);
+    font-size: 14px;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+
+table {
+    display: flex;
+    border-collapse: collapse;
+    border: 2px solid var(--accent-color);
+    letter-spacing: 2px;
+    font-size: large;
+    text-align: center;
+    justify-content: center;
+}
+
+td,
+th {
+    border: 2px solid var(--accent-color);
+    padding: 8px 12px;
+
 }
