@@ -139,13 +139,10 @@ section {
 
 .hero {
     position: relative;
-
-}
-
-.hero img {
     display: block;
     width: 100%;
     height: auto;
+
 }
 
 .hero article img {
@@ -252,7 +249,7 @@ textarea {
     color: black;
     border-radius: 10%;
     opacity: 0.8;
-    bottom: 420px;
+    bottom: 400px;
     left: 33%;
     padding: 20px;
     margin: 20px;
