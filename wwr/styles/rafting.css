@@ -150,6 +150,12 @@ section {
 
 }
 
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .hero article img {
     top: 0px;
     float: right;
