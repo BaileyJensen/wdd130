@@ -242,7 +242,7 @@ textarea {
 }
 
 .gototrip {
-    position: absolute;
+    position: static;
     text-align: center;
     width: 500px;
     background-color: lightgoldenrodyellow;
@@ -252,7 +252,8 @@ textarea {
     bottom: 400px;
     left: 33%;
     padding: 20px;
-    margin: 20px;
+    text-align: center;
+    margin: 20px auto;
 
 }
 
